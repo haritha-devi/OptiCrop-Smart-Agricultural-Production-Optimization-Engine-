@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OptiCrop</title>
+</head>
+<body>
+
+<h1> OptiCrop</h1>
+
+<form action="/predict" method="post">
+
+N:
+<input type="number" name="N" required><br><br>
+
+P:
+<input type="number" name="P" required><br><br>
+
+K:
+<input type="number" name="K" required><br><br>
+
+Temperature:
+<input type="number" step="any" name="temperature" required><br><br>
+
+Humidity:
+<input type="number" step="any" name="humidity" required><br><br>
+
+pH:
+<input type="number" step="any" name="ph" required><br><br>
+
+Rainfall:
+<input type="number" step="any" name="rainfall" required><br><br>
+
+<input type="submit" value="Predict">
+
+</form>
+
+</body>
+</html>
